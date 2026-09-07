@@ -65,7 +65,7 @@ for (const [name, version, license, file, repository] of [
   ['zod (IMG.LY bundle)', '3.24.2', 'MIT', 'zod-3.24.2-LICENSE.txt', 'https://github.com/colinhacks/zod/tree/v3.24.2'],
   ['UPNG.js (compression bundle)', 'f6e5f93', 'MIT', 'UPNG-LICENSE.txt', 'https://github.com/photopea/UPNG.js/tree/f6e5f93da01094b1ffb3cef364abce4d9e758cbf'],
   ['canvas-to-bmp (compression bundle)', '77aaf22', 'MIT', 'canvas-to-bmp-LICENSE.txt', 'https://github.com/marcosvega91/canvas-to-bmp/tree/77aaf2221647a6533b1926cb637c7cd2bc432d9b'],
-  ['IS-Net model', 'IMG.LY 1.7.0 quantized model', 'MIT', 'IS-Net-LICENSE.txt', 'https://github.com/xuebinqin/DIS'],
+  ['IS-Net model', 'IMG.LY 1.7.0 FP16 model', 'MIT', 'IS-Net-LICENSE.txt', 'https://github.com/xuebinqin/DIS'],
   ['MediaPipe Face Mesh V2 model', 'float16/1', 'Apache-2.0', 'Apache-2.0.txt', 'https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf'],
   ['MediaPipe BlazeFace model', 'short range', 'Apache-2.0', 'Apache-2.0.txt', 'https://storage.googleapis.com/mediapipe-assets/MediaPipe%20BlazeFace%20Model%20Card%20(Short%20Range).pdf'],
   ['MediaPipe Blendshape V2 model', 'float16/1', 'Apache-2.0', 'Apache-2.0.txt', 'https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Blendshape%20V2.pdf'],

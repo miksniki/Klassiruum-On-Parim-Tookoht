@@ -10,4 +10,4 @@ is-buffer/index.js:
 * @license  MIT
 *)
 */
-self.onmessage=async e=>{try{let t=new Map,n=await di(e.data,{model:`isnet_quint8`,device:`cpu`,proxyToWorker:!1,output:{format:`image/png`},fetchArgs:{signal:AbortSignal.timeout(18e4)},progress:(e,n,r)=>{if(!e.startsWith(`fetch:`))return;t.set(e,{current:n,total:r});let i=0,a=0;t.forEach(e=>{i+=e.current,a+=e.total}),self.postMessage({type:`progress`,loaded:i,total:a})}});self.postMessage({type:`done`,blob:n})}catch(e){self.postMessage({type:`error`,message:e instanceof Error?e.message:String(e)})}};
+self.onmessage=async e=>{try{let t=new Map,n=await di(e.data,{model:`isnet_fp16`,device:`cpu`,proxyToWorker:!1,output:{format:`image/png`},fetchArgs:{signal:AbortSignal.timeout(18e4)},progress:(e,n,r)=>{if(!e.startsWith(`fetch:`))return;t.set(e,{current:n,total:r});let i=0,a=0;t.forEach(e=>{i+=e.current,a+=e.total}),self.postMessage({type:`progress`,loaded:i,total:a})}});self.postMessage({type:`done`,blob:n})}catch(e){self.postMessage({type:`error`,message:e instanceof Error?e.message:String(e)})}};

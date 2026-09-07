@@ -1,5 +1,5 @@
 {
-  "buildId": "8d4c4e395f1c4cdbd8cf7583f63484fe457b5ebf6b2268e4feae8b0a16e5590c",
+  "buildId": "49c3803a0d4be851eff58b6344a5785c07150e91f3802434e0b733ef0cc42c27",
   "license": "AGPL-3.0-only",
   "files": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "f43d92e625143f60ff657b17b0b0520a2c59cb6e78ea6468b558e1a0dad69e63"
+      "sha256": "850e48a8f0fc5d548c8af5be5c4ab00da62cdb448b0c8f4f951787bd4c592259"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -128,7 +128,7 @@
     },
     {
       "path": "scripts/prepare-legal.mjs",
-      "sha256": "e4ffd71758f5dfb91b4fca182374f7d82766faa93ed5f5b7935d568721797632"
+      "sha256": "60d13b56f9006e5ad92e6355db162b07870f4d4e8a07f68d9f52a478c42fc4e1"
     },
     {
       "path": "scripts/setup-assets.mjs",
@@ -204,7 +204,7 @@
     },
     {
       "path": "src/workers/background.worker.ts",
-      "sha256": "81c6f8f870e32ca0232cdd46d0b5f1c1825b2aedb585ae323ef65855df161f62"
+      "sha256": "adbf5019cc86bd2dc9dbedb47eecbea363266f33567abf6f1e83a97bc99fd552"
     },
     {
       "path": "tests/editor.spec.ts",
@@ -532,7 +532,7 @@
     },
     {
       "name": "IS-Net model",
-      "version": "IMG.LY 1.7.0 quantized model",
+      "version": "IMG.LY 1.7.0 FP16 model",
       "license": "MIT",
       "repository": "https://github.com/xuebinqin/DIS",
       "notice": "notices/IS-Net-model.txt"

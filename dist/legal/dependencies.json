@@ -299,7 +299,7 @@
   },
   {
     "name": "IS-Net model",
-    "version": "IMG.LY 1.7.0 quantized model",
+    "version": "IMG.LY 1.7.0 FP16 model",
     "license": "MIT",
     "repository": "https://github.com/xuebinqin/DIS",
     "notice": "notices/IS-Net-model.txt"

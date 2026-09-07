@@ -34,7 +34,7 @@ The real-model test requires internet, can take several minutes, and writes the 
 ## How it works
 
 1. Validate JPG, PNG, or WebP files up to 30 MB. Compress and resize to at most 2000 px with `browser-image-compression` in a worker. Phone orientation is handled during preparation.
-2. Run IMG.LY's quantized IS-Net model in a dedicated worker. Show asset-download progress and allow cancellation. The worker terminates after processing or cancellation to release model memory.
+2. Run IMG.LY's half-precision IS-Net model (`isnet_fp16`) in a dedicated worker. Show asset-download progress and allow cancellation. The worker terminates after processing or cancellation to release model memory.
 3. Run MediaPipe Face Landmarker on the prepared original. Detect up to five faces; locate each pair of eyes and account for the head's in-plane tilt.
 4. Use a smooth inverse radial warp with bilinear sampling to enlarge eyes. Draw round, square, or sunglasses on Canvas. Eye strength, frame size, and vertical frame offset are adjustable.
 5. Scan the cutout's alpha channel for the person's bounds, automatically fit the person, then compose with the chosen background. Position using drag, arrow keys, or sliders. Face effects are cached while positioning.
@@ -57,7 +57,7 @@ Defaults apply enlarged eyes and round glasses automatically. A missed face or f
 
 Deploy the generated `dist/` directory to a static HTTPS host. No backend, API key, or upload endpoint is required. Photos and face coordinates remain in browser memory; resetting or closing the page discards them. Downloaded files remain wherever the user saves them.
 
-The first photo requires model downloads (tens of megabytes). IMG.LY model/runtime data comes from `staticimgly.com`, and the face model comes from Google's `storage.googleapis.com`. The browser can cache these downloads; offline use is not guaranteed. MediaPipe WASM and the compression library are served from the app itself. Google Fonts supplies optional fonts with local fallbacks. These requests download code, models, or fonts and do not contain the user's photo.
+The first photo requires model downloads (approximately 88 MB for the background-removal model, plus face-model and runtime files). IMG.LY model/runtime data comes from `staticimgly.com`, and the face model comes from Google's `storage.googleapis.com`. The browser can cache these downloads; offline use is not guaranteed. MediaPipe WASM and the compression library are served from the app itself. Google Fonts supplies optional fonts with local fallbacks. These requests download code, models, or fonts and do not contain the user's photo.
 
 Configure these HTTP response headers for efficient multithreaded inference:
 

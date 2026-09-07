@@ -8492,7 +8492,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ==============================
 
 IS-Net model
-Version: IMG.LY 1.7.0 quantized model
+Version: IMG.LY 1.7.0 FP16 model
 License: MIT
 Source: https://github.com/xuebinqin/DIS
 

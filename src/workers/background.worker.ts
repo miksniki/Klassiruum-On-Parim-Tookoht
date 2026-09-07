@@ -5,7 +5,7 @@ self.onmessage = async (event: MessageEvent<Blob>) => {
   try {
     const downloads = new Map<string, { current: number; total: number }>();
     const blob = await removeBackground(event.data, {
-      model: 'isnet_quint8', device: 'cpu', proxyToWorker: false,
+      model: 'isnet_fp16', device: 'cpu', proxyToWorker: false,
       output: { format: 'image/png' }, fetchArgs: { signal: AbortSignal.timeout(180000) },
       progress: (key, current, total) => {
         if (!key.startsWith('fetch:')) return;
