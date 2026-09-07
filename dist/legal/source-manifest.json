@@ -1,10 +1,10 @@
 {
-  "buildId": "f5e8b7900a62d90892a9171f1b1896dca4c4464722ea8b53f8eae9a3551b2042",
+  "buildId": "8d4c4e395f1c4cdbd8cf7583f63484fe457b5ebf6b2268e4feae8b0a16e5590c",
   "license": "AGPL-3.0-only",
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "c1ee44d01c09b1adbbefad03cf6215890ec4613346b161ed685a381ab984a0a3"
+      "sha256": "3b569a0576459f5b8a8e0b48f5d8f90ce3365ff87187b7fba0cd61f3033ac2df"
     },
     {
       "path": ".nvmrc",
