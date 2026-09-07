@@ -1,0 +1,26 @@
+Klassiruum on parim töökoht
+Copyright (C) 2026 Nikita Mikson and contributors
+
+The original application code is licensed under the GNU Affero General Public
+License, version 3 only (AGPL-3.0-only). See LICENSE for the complete terms.
+You may use, study, modify and redistribute the covered work under those terms.
+The software is provided WITHOUT ANY WARRANTY, to the extent permitted by law,
+including without the implied warranties of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+Third-party components retain their respective copyrights and licenses. See
+THIRD_PARTY_NOTICES.md and legal/. No upstream endorsement is implied.
+The software license does not change rights in uploaded photographs, campaign
+artwork, school names, or trademarks. See ASSETS.md for the artwork record.
+
+The public source download is generated from the files used for each build:
+  /legal/source.tgz
+The public notice and source-access page is:
+  /licenses.html
+Project repository:
+  https://github.com/miksniki/Klassiruum-On-Parim-Tookoht
+
+2026-09-07: the original application combines photo preparation, background
+removal, facial-landmark effects and Canvas composition. Upstream packages are
+used without modifying their installed source. Original application changes
+are documented in the repository and in the per-build source manifest.

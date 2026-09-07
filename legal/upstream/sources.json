@@ -1,0 +1,67 @@
+[
+  {
+    "file": "AGPL-3.0.txt",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/AGPL-3.0-only.txt",
+    "sha256": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee"
+  },
+  {
+    "file": "ISC.txt",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/ISC.txt",
+    "sha256": "521c6f0ed8e64736684f89843d16a4df6b4b7449acbcfc6ca6630a3037ca8c53"
+  },
+  {
+    "file": "Apache-2.0.txt",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "onnxruntime-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.21.0/LICENSE",
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+  },
+  {
+    "file": "onnxruntime-ThirdPartyNotices.txt",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.21.0/ThirdPartyNotices.txt",
+    "sha256": "8c06e8cff286a4a117b3b246a4c7da68428a144af757823db50e3d6520941ec6"
+  },
+  {
+    "file": "mediapipe-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/google-ai-edge/mediapipe/v0.10.32/LICENSE",
+    "sha256": "8707eef0533987efc5b155d64761eeb6e20793f50b9bd1a68dad1cf4719d0ed8"
+  },
+  {
+    "file": "IS-Net-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/xuebinqin/DIS/main/LICENSE.md",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "DM-Sans-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt",
+    "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+  },
+  {
+    "file": "Manrope-OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+    "sha256": "e01b637272e0cbdfb240184dd98ea5cc671556d9894dae2668d92ab2c906787c"
+  },
+  {
+    "file": "lodash-4.17.21-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/lodash/lodash/4.17.21/LICENSE",
+    "sha256": "f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc"
+  },
+  {
+    "file": "zod-3.24.2-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/colinhacks/zod/v3.24.2/LICENSE",
+    "sha256": "0225e7c0a96845a7477cd44d75d3dc9c999f673454efa84b54e218415055eece"
+  },
+  {
+    "file": "UPNG-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/photopea/UPNG.js/f6e5f93da01094b1ffb3cef364abce4d9e758cbf/LICENSE",
+    "sha256": "c1fb8861eca211bf5aea574358aba7039396c0c1824c2a1477cc126d398efd89"
+  },
+  {
+    "file": "canvas-to-bmp-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/marcosvega91/canvas-to-bmp/77aaf2221647a6533b1926cb637c7cd2bc432d9b/LICENSE-MIT.txt",
+    "sha256": "dd794ef5b5ba09221f5ff3fce960e4db50b5b8f547492904831cb0add37e4221"
+  }
+]
