@@ -1,5 +1,5 @@
 {
-  "buildId": "45893017c516af25d8d6b6c9d621fc3d6011b7339b6e10d80a7ddb2d73297275",
+  "buildId": "1aa2c26008888b4232ba54a1bd97a1cf8c83d37f89216369091ed7ff8eef0ce9",
   "license": "AGPL-3.0-only",
   "files": [
     {
@@ -156,7 +156,7 @@
     },
     {
       "path": "src/components/CampaignIntro.tsx",
-      "sha256": "998c496e9ebef45bc94a0c78b8b104509f59f5aca22acbf2d39e9be465e36fd8"
+      "sha256": "fd58f1db064fb19e0bea6ad845b678ebb6dc2d48d7dbac4ec4a9ad552d8fe523"
     },
     {
       "path": "src/components/Icon.tsx",

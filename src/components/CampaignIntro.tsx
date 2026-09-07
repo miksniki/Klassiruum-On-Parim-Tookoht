@@ -5,7 +5,7 @@ import { Icon } from './Icon';
 export function CampaignIntro() {
   return <section className="campaign-intro" aria-labelledby="campaign-title">
     <div className="campaign-date"><span/> ÕPETAJANÄDAL · 5.–11. OKTOOBER</div>
-    <h1 id="campaign-title">Klassiruum on<br/> <span>parim töökoht<span className="title-period">.</span></span></h1>
+    <h1 id="campaign-title">Klassiruum on<br/> <span>parim töökoht</span></h1>
     <p className="campaign-subtitle">Klassiruum on parim töökoht, aga õpetamise kirg vajab tuge, et kesta ja kasvada</p>
 
     <a className="campaign-scroll" href="#fotostuudio">
