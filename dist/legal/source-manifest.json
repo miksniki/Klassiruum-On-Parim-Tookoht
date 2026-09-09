@@ -1,5 +1,5 @@
 {
-  "buildId": "f3a40098104beef35c91efdf8883929ecac5ea265aef2cb482e13c26f369c2ac",
+  "buildId": "802049f45bae4ea1f77c1c444cc35772188b22c94ac987308472ccd22128e404",
   "license": "AGPL-3.0-only",
   "files": [
     {
@@ -136,7 +136,7 @@
     },
     {
       "path": "src/App.tsx",
-      "sha256": "12dafea87b8ab841961a0d4673b2996ba33720e53ddd39d623718254a698bc9f"
+      "sha256": "9942a12ab91602cfa556571bb66b96f8dc084269ab8adebce42d400638d31fc6"
     },
     {
       "path": "src/assets/highschool.png",
@@ -152,59 +152,59 @@
     },
     {
       "path": "src/backgrounds.ts",
-      "sha256": "94191cbb54673e6a74a6ffd0868cdc7072618100449727d111d90f77085fca76"
+      "sha256": "9c95f5f95f57142d1019f6cedf7c726fe6da2c760444c47152de11b9a9761cf9"
     },
     {
       "path": "src/components/CampaignIntro.tsx",
-      "sha256": "8a305e6b83462abdeebb785750e5b1e504f453e1a99b9f7e530b76a383d56e20"
+      "sha256": "d5abc947388bd85367d9a27f47af23c032ef1de649a985c942514306e3870f66"
     },
     {
       "path": "src/components/Icon.tsx",
-      "sha256": "8ba68aedbb0ec7b826fca08be3f902a5f14ea65f70bd4d91f3e8d10414e089bb"
+      "sha256": "1e9d6fb99360f0dddf6cc647680bfb368bc644fd827413abe875cb6eda0f729e"
     },
     {
       "path": "src/components/ImagePreview.tsx",
-      "sha256": "3e0d0c5d99c152438b0d8778d3b04ce962194394b5621ff927cb6720276f7b2a"
+      "sha256": "9e5f4cc8f50b9abf14f6dcf646f652f14df4e3ad0e565010f28016f9169a6659"
     },
     {
       "path": "src/components/PhotoUpload.tsx",
-      "sha256": "fdb72847dfe66c470b9f92856337752075bdc15d451985c5304f544b77ec476d"
+      "sha256": "ab6603849d60a7aff675e5244216a1f0bb5002062b062090d64f93c9b0a8d0a0"
     },
     {
       "path": "src/main.tsx",
-      "sha256": "4be2d2ef3628f96b7f387693d6edc666bc465a24da11c8d35ec044876daae115"
+      "sha256": "6699f5f98489a6450805f9bd2b47d3ff8fc7d46131adad860ff3c6359c58e876"
     },
     {
       "path": "src/styles.css",
-      "sha256": "2253bddc6e88fc0d44102a96337aa59c0e3f8ba1595c04b2399536aa6c221b6a"
+      "sha256": "c1d113411e072b9f05d3e883db54b668b212b062a96fe962f42c49ff64de2aac"
     },
     {
       "path": "src/types.ts",
-      "sha256": "51a0402c2df8729f5a32a686a685bb0d7c5f8c125d3bde09455b38bda53995ce"
+      "sha256": "2394f45473cde2dceb542d6afeb193d6e8772c65e4129f9c8627826eef758503"
     },
     {
       "path": "src/utils/canvas.ts",
-      "sha256": "dcda6f7c4e0341ddeac95f60a90a5479cdb1a0a1940de862b9668217a3dc38f7"
+      "sha256": "56bde0ebc74298bcfe164161a5d2bdb0e076bc02af3b5c61a4dfd2f8dc199429"
     },
     {
       "path": "src/utils/effects.ts",
-      "sha256": "5e098ae5a21fee98e359e97ef305fb33b3447c6e7f126a11cc48e9129a292ac8"
+      "sha256": "6a819efc1ace28b61bd3655f2b4f8fc24f8d81f72d6d447de01766752a3b0d9a"
     },
     {
       "path": "src/utils/face.ts",
-      "sha256": "f5469adb7c856735e7d7f8464ed5eb20c501c1b58e9331c9850725dcd82a574e"
+      "sha256": "844dc958d4178f44bb275d6513a7e650a3589a0364871aaaee44616585bc6b75"
     },
     {
       "path": "src/utils/generateImage.ts",
-      "sha256": "347fe8472e9cff84f0c398f27d0cf084664bf86792526d5ab0061696e5bea6ac"
+      "sha256": "bb239bd04a2f4a91c049850bd40fde98895a99244e10e0d1ddaf3638eb629142"
     },
     {
       "path": "src/utils/processPhoto.ts",
-      "sha256": "b073e457b95e0bc8600831613d20097db475d940e1ab51f581512e25f7bc705e"
+      "sha256": "2a3fd524e95a607243f463b2e678a8e90b188d7dd475f7df797afead175911f4"
     },
     {
       "path": "src/workers/background.worker.ts",
-      "sha256": "adbf5019cc86bd2dc9dbedb47eecbea363266f33567abf6f1e83a97bc99fd552"
+      "sha256": "4d92b570781c1a007eeee6b6eda6df266dc84cc553f34d26a2b5749fd96ea570"
     },
     {
       "path": "tests/editor.spec.ts",

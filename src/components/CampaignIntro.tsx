@@ -47,6 +47,14 @@ export function CampaignIntro() {
           jagama oma lugusid ja toetama õpetajaameti väärtustamist.
         </p>
       </div>
+      <a
+        className="campaign-info"
+        href="https://rapla.edupage.org/a/petajanadal-klassiruum-on-parim-tookoht"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Vajuta siia, et saada rohkem infot
+      </a>
     </section>
   );
 }

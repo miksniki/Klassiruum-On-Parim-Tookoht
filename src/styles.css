@@ -1291,6 +1291,28 @@ html {
   line-height: 1.9;
   text-wrap: pretty;
 }
+.campaign-info {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 24px;
+  padding: 12px 18px;
+  border: 1px solid #ccd7bf;
+  border-radius: 8px;
+  background: #edf2e3;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.campaign-info:hover {
+  background: #e0e9d2;
+}
+.campaign-info:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
+}
 .campaign-scroll {
   display: inline-flex;
   align-items: center;
